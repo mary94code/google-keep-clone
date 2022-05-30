@@ -1,0 +1,90 @@
+/* text area styles*/
+.container {   
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto 0;
+}
+.App{
+    width: 100vw;
+    min-height: 100vh;
+}
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 1px 7px rgb(128, 128, 128);
+    resize: none;
+    position: relative;
+}
+
+.title_input {
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    padding-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    background: transparent;
+}
+
+.textarea_input {
+    min-height: 70px;
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    display: block;
+    background: transparent;
+
+}
+
+.buttons {
+    display: flex!important;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#closeBtn,
+#addBtn {
+    background-color: transparent;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+#closeBtn:hover,
+#addBtn:hover {
+    background-color: rgba(241, 243, 244, 0.2);
+    border-radius: 5px;
+}
+.colorPopup{
+    display: flex;
+    
+}
+.color-choice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 3px;
+}
+.colorPicker{
+    cursor: pointer;
+ 
+}
+
+.color-choice-selected {
+    border: 3px solid rgb(4, 255, 0);
+}

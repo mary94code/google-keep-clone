@@ -1,0 +1,67 @@
+/* note block*/
+.note_block {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    padding: 20px;
+    width: 24%;
+    max-width: 300px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.note_block:hover {
+    box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+.container-2 {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bin {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px;
+    transition: .3s;
+}
+
+.bin:hover {
+    border-radius: 50%;
+    background-color: #E9EAEA;
+    padding: 5px;
+}
+.text_white {
+    fill: #fff;
+}
+.text_white:hover {
+    fill: #000
+}
+.popUp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-popUp{
+    background-color: white;
+    padding: 20px;
+}
+.container-popUp input{
+    width: 100%;
+}
+
+.todo_description {
+    word-break: break-all
+}
