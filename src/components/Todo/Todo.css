@@ -65,3 +65,8 @@
 .todo_description {
     word-break: break-all
 }
+@media(max-width:650px){
+    .note_block{
+        min-width:150px ;
+    }
+}
